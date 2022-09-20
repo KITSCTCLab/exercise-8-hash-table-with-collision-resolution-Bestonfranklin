@@ -9,7 +9,7 @@ def display_hash(hashtable) -> None:
 
 
 def insert(Hashtable, keyvalue, value) -> None:
-	hashtable[keyvalue % len(hashtable)].append(value)
+	Hashtable[keyvalue % len(hashtable)].append(value)
 
 
 # Do not edit the following code
